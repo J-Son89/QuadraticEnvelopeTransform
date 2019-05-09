@@ -1,0 +1,8 @@
+oldTests is from the folder Jamie/matlab/testing/multitests
+
+newMatlab will reformat the old code and seperate the various methods of ADMM to be specific to their functionality.
+e.g for vanillaQE-ADMM.m:
+it will onl handle the rectangular case, does not have tensorweights or misfit weights as an option
+
+Should make the code perform better and easier to read.
+
